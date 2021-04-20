@@ -1,0 +1,72 @@
+.formtype-section {
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+.locales-section {
+    width: 50%;
+    float: right;
+    padding-right: 5px;
+}
+.predict-button {
+    margin-top: 12px;
+    .ms-Button-icon {
+        color: rgb(120, 173, 14);
+    }
+}
+
+.request-uri-textfield {
+    textarea {
+        word-break: break-all;
+    }
+}
+
+.predict-mode-toggle {
+    label {
+        color: rgb(250, 251, 251);
+    }
+}
+.page-body {
+    background-color: #ffffff;
+    p{
+        text-indent: 30px;
+    }
+}
+.render-json-section {
+    color: #000000;
+    padding: 5px 1.5rem !important;
+}
+.render-json-section {
+    tr:nth-child(even) {
+        background-color: #add8e661;
+    }    
+    tr:first-child {
+        // background-color: #808080a1;
+        background-color: #ffffff;
+        font-weight: bold;
+    }
+    tr td{
+        height: 25px;
+        // border-right: solid 1px #d3d3d352;
+        // border-left: solid 1px #d3d3d352;
+        padding: 5px 5px;
+        color: #000000;
+    }
+    tr td:not(:first-child) {
+        text-align: center;
+    }
+    table {
+        margin: 4px 1.5em;
+        font-size: 12px;
+    }
+    p {
+        margin: 4px 1.5em;
+        font-size: 12px;
+    }
+}
+.toggle-icon {
+    cursor: pointer;
+  }
+  .toggle-btn-block {
+    text-align: right;
+  }
